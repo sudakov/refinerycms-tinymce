@@ -5,7 +5,7 @@ function init_tinymce_for(jq_selector) {
     toolbar1: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | forecolor backcolor',
     image_advtab: true,
     content_css : '<%= asset_path "tinymce.scss", :only_path => false %>',
-    skin_url: '/assets/javascripts/tinymce/skins/lightgray',
+    skin_url: '/assets/tinymce/skins/lightgray',
 
     file_browser_callback   : function(field_name, url, type, win) {
 
