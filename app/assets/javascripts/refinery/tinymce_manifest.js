@@ -36,6 +36,7 @@
  *= require tinymce/plugins/colorpicker/plugin
  *= require tinymce/plugins/textpattern/plugin
  *= require tinymce/plugins/imagetools/plugin
+ *= require tinymce/plugins/print/plugin
  *= require refinery/boot_tinymce
  *= require_self
 */
