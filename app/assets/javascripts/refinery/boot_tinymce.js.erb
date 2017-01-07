@@ -11,10 +11,10 @@ function init_tinymce_for(jq_selector) {
 
         if (type == 'image') {
           var title_text = "Choose an Image"
-          var cmsURL     = '/refinery/dialogs/image';
+          var cmsURL     = '/cms/refinery/dialogs/image';
         } else {
           var title_text = "Choose Object to Link"
-          var cmsURL     = '/refinery/dialogs/link';
+          var cmsURL     = '/cms/refinery/dialogs/link';
         }
 
         tinymce.activeEditor.windowManager.open({
